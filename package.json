@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-wagmi",
+  "name": "nextjs-wagmi-siwe-sessions",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "ethers": "^5.7.0",
+    "iron-session": "^6.2.0",
     "next": "12.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "siwe": "^1.1.6",
+    "wagmi": "^0.6.4"
   },
   "devDependencies": {
     "@types/node": "18.7.14",
